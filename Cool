@@ -1,0 +1,40 @@
+package com.flight.india;
+
+public class AirPlane {
+  
+  public void intake;
+  public void speed;
+  
+  AirPlane(){
+    
+  }
+  
+  AirPlane(int a){
+    this.intake=intake;
+  }
+  
+  void passenger() {
+    System.out.println("Successful");
+  }
+  
+  void initIntake(int intake) {
+    if(intake>0)
+      this.intake=intake;
+    System.out.println(this.intake);
+  }
+  
+  void setSpeed(int speed) {
+    if(speed>0)
+      this.speed=speed;
+    System.out.println(this.speed);
+  }
+  
+  void intakemore(int person) {
+    initIntake(this.intake+person);
+  }
+  
+  void increaseSpeed(int value) {
+    setSpeed(this.speed+value);
+  }
+
+}
